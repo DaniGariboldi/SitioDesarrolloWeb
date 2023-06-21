@@ -5397,6 +5397,10 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 992px) {
+  .video {
+    width:720;
+    height:415;
+  }
   .modal-lg,
   .modal-xl {
     --bs-modal-width: 800px;
@@ -5447,6 +5451,10 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 767.98px) {
+  .video {
+    width:520;
+    height:415;
+  }
   .modal-fullscreen-md-down {
     width: 100vw;
     max-width: none;
@@ -5467,6 +5475,7 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 991.98px) {
+  
   .modal-fullscreen-lg-down {
     width: 100vw;
     max-width: none;
@@ -5507,6 +5516,10 @@ textarea.form-control-lg {
   }
 }
 @media (max-width: 1399.98px) {
+  .video {
+    width:720;
+    height:415;
+  }
   .modal-fullscreen-xxl-down {
     width: 100vw;
     max-width: none;
